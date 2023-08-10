@@ -1,0 +1,47 @@
+.scroll-box::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+.scroll-box:hover::-webkit-scrollbar-thumb {
+  width: 100%;
+  background-color: rgb(184, 182, 182);
+  border-radius: 12px;
+}
+
+.user-normal {
+  padding-bottom: 15px;
+  color: gray;
+  border-bottom: 1px solid white;
+}
+
+.user-normal:hover {
+  color: #3B46B4;
+  border-bottom: 1px solid #3B46B4;
+}
+
+.user-active {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #3B46B4;
+  color: #3B46B4;
+}
+
+.cate-normal:hover {
+  color: #2563EB;
+}
+
+.cate-active:hover {
+  color: white
+}
+.nav-active {
+  color: white;
+}
+
+.nav-normal:hover {
+  color: #2563EB;
+}
+
+.nav-active:hover{
+  color: white;
+}
+
